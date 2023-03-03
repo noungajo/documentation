@@ -1,5 +1,5 @@
 # Flutter Insecure http is not allowed by platform
- ## Android
+## Android
 Open the **AndroidManifest.xml** file in the **android/app/src/main** folder. Then set *usesCleartextTraffic* to *true*.
 
 ```xml
