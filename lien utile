@@ -1,0 +1,64 @@
+lien pour générer un débien
+https://www.intracto.com/en-be/blog/creating-debianubuntu-deb-packages
+lien pour comprendre l'ECG électrocardiogrammepermet d'enregistrer l'activité électrique du coeur
+
+générer un nombre de byte
+python -c "print('X'*1024)"
+
+
+plantUml
+device to server
+@startuml
+autonumber 1
+skinparam handwritten true
+title intéraction montre - serveur
+watch_19 -> CloudServer : login
+CloudServer -> CloudServer : save_login
+watch_19 -> CloudServer : locating package
+CloudServer -> CloudServer : store event to database
+CloudServer -> watch_19 : response
+@enduml
+
+lien postman
+https://web.postman.co/workspace/watch19~b60454b7-c98f-4cd0-81d6-f5566644829d/request/20758596-28e37e91-f165-4fa7-8e0a-7030f6d94843
+
+lien pour générer le code du snipper
+https://vscodesnippetgenerator.azurewebsites.net/
+
+ctrl + ship + p
+user create snipper
+
+lien pour stream
+https://www.didierboelens.com/fr/2018/08/reactive-programming-streams-bloc/
+
+lien pour flutter storage secure
+https://blog.logrocket.com/securing-local-storage-flutter/
+
+lien pour API
+http://163.172.48.36:8081/api/v2/docs
+
+lien pour lucidchart:outil pour générer les diagrammes en fonction des balises
+https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML
+======================================== steve info==========================================================
+injection de dépendance et inversion de controlle
+https://medium.com/esker-labs/injection-de-d%C3%A9pendances-from-zero-to-hero-85a038e4df9b
+
+https://blog.logrocket.com/dependency-injection-flutter-using-getit-injectable/
+
+clean code
+solid,kiss
+https://tech-fr.netlify.app/articles/fr546372/index.html
+
+https://www.youtube.com/watch?v=pTB30aXS77U
+
+https://www.topcoder.com/thrive/articles/solid-principles-in-dart
+==============================spec chell===================================
+
+https://oftyfr-my.sharepoint.com/personal/jonathan_noutcha_ofty_fr/_layouts/15/doc.aspx?sourcedoc={8195d89e-e207-4e28-af87-578adde664a9}&action=edit
+
+https://mobiskill.fr/blog/conseils-emploi-tech/les-meilleures-pratiques-pour-le-developpement-de-rest-api/#:~:text=L'API%20REST%20est%20%C3%A9galement,clients%20et%20les%20serveurs%20communiquent.
+
+# téléchargement de pdf
+
+https://medium.flutterdevs.com/pdf-document-view-download-in-flutter-2a5e93cd27f
+

@@ -1,0 +1,19 @@
+__pycache__
+fastapi-env
+api-env
+*.DS_Store
+*.vscode
+*.gitignore
+#ignore le dossier et son contenu
+alembic/
+assets/
+store
+*.ini
+*.json
+#ignorer les fichiers mp3
+*.mp3
+*.jpg
+*.jpeg
+*.png
+
+
