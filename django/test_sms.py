@@ -13,11 +13,12 @@ def sendsms():
     }
     resp = requests.post(url, data=data, headers=headers)
     print(resp.json())
+    
     auth = resp.json()['token_type'] + " " + resp.json()['access_token']
     print(auth)
     sender_phone = "2370000"
-    receiver_phone = "237690291718"  # il faut mettre le numéro ici.
-    message = "cheel sms message"
+    receiver_phone = "237656964128"  # il faut mettre le numéro ici.
+    message = "Hello Durango, j'espère que tu vas bien!!!"
     url = f'https://api.orange.com/smsmessaging/v1/outbound/tel%3A%2B{sender_phone}/requests'
     headers = {
         "Content-Type": "application/json",
@@ -33,12 +34,13 @@ def sendsms():
             }
         }
     }
-    r = requests.post(url=url, data=json.dumps(data), headers=headers)
+    r = requests.post(url=url, data="", headers=headers)
     d = {
         "status": r.status_code,
         "content": r.json()
     }
     print(d)
+    
 
 if __name__ == "__main__":
     sendsms()
