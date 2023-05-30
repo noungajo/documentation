@@ -31,7 +31,7 @@ Aller dans le fichier gradle-wrapper.properties qui est dans le répertoire <pro
 contenu du fichier <projet>/android/gradle/gradle-wrapper.properties
 ```shell
 distributionBase=GRADLE_USER_HOME
-distributionUrl=https\://services.gradle.org/distributions/gradle-7.4-bin.zip
+distributionUrl=https\://services.gradle.org/distributions/gradle-7.5-all.zip
 distributionPath=wrapper/dists
 zipStorePath=wrapper/dists
 zipStoreBase=GRADLE_USER_HOME
@@ -39,22 +39,22 @@ zipStoreBase=GRADLE_USER_HOME
 ## 3. Mettre à jour le projet build.gradle
 
 Mettre à jour le build.gradle d'Android localisé à <projet>/android/build.gradle avec la nouvelle version de gradle et kotlin disponible. Chez moi j'ai
-ext.kotlin_version = '1.6.10' et classpath 'com.android.tools.build:gradle:7.1.1'
+ext.kotlin_version = '1.7.10' et classpath 'com.android.tools.build:gradle:7.3.0'
 
 le fichier <projet>/android/build.gradle devient donc
 
 ```shell
 buildscript {
-    ext.kotlin_version = '1.6.10'
+    ext.kotlin_version = '1.7.10'
     repositories {
         google()
         mavenCentral()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.1.1'
+        classpath 'com.android.tools.build:gradle:7.3.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        classpath 'com.google.gms:google-services:4.3.10'
+        classpath 'com.google.gms:google-services:4.3.10'//optionnel
     }
 }
 
